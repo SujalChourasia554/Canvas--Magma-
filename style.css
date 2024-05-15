@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0740DB;
+    position: relative;
+}
+#page1 #video{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+
+#page1 #video video{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+#page1 #nav{
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+#page1 #nav img{
+    margin-top: -1.7vw;
+    width: 9%;
+}
+#right_nav button{
+    padding: 10px 20px ;
+    border-radius:50px ;
+    border: 1px solid white;
+    background-color: #0740DB;
+    color: white;
+    font-family: a;
+    font-size: 15px;
+
+}
+
+#bottom{
+    height: 35vh;
+    width: 40vw;
+    position: absolute;
+    bottom: 18%;
+    left: 5%;
+}
+#bottom h1{
+    font-size: 4.5vw;
+    font-weight: 400;
+    line-height: 1;
+    color:white;
+    font-weight: 300;
+
+}
+
+#bottom_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height:30%;
+}
+#bottom #bottom_inner button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #0b48ed;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+#bottom #bottom_inner h4{
+    letter-spacing: 0.2px;
+    font-size: 1.2vw;
+    color:white;
+    font-weight: 300;
+
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0740DB;
+    position: relative;
+}
