@@ -651,6 +651,7 @@ function circle_animation(){
     backgroundColor : `#0a3bce91`,
   })
   
+  
 }
 
 circle_animation();
