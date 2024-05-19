@@ -626,32 +626,5 @@ end: `250% top`,
 }
 canvas3()
 
-function circle_animation(){
-  gsap.to(".page7-cir",{
-    scrollTrigger:{
-      trigger:`.page7-cir`,
-      start:`top center`,
-      end:`bottom top`,
-      scroller:`#main`,
-      scrub:.5
-    },
-    scale:3
-  })
-  
-  
-  
-  gsap.to(".page7-cir-inner",{
-    scrollTrigger:{
-      trigger:`.page7-cir-inner`,
-      start:`top center`,
-      end:`bottom top`,
-      scroller:`#main`,
-      scrub:.5
-    },
-    backgroundColor : `#0a3bce91`,
-  })
-  
-  
-}
 
-circle_animation();
+
